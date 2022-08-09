@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row col-md-6 col-md-offset-3">
+		<div class="panel-primary">
+			<div class="panel-heading text-center">
+				<h1>Registration Form</h1>
+			</div>
+			<div class="panel-body">
+				<form>
+					<div class="form-group">
+						<label for="firstname">First Name:</label>
+						<input type="text" class="form-control" id="firstname" placeholder="Enter First Name"/>
+					</div>
+					
+					<div class="form-group">
+						<label for="lastname">Last Name:</label>
+						<input type="text" class="form-control" id="lastname" placeholder="Enter Last Name"/>
+					</div>
+					
+					<div class="from-group">
+						<div class="row">
+							<div class="col-md-6">
+								<label for="gender">Gender:</label>
+								<div>
+									<label for="male" class="radio-inline"><input type="radio" name="gender" id="male"/>Male</label>
+									<label for="female" class="radio-inline"><input type="radio" name="gender" id="female"/>Female</label>
+									<label for="other" class="radio-inline"><input type="radio" name="gender" id="other"/>Other</label>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div>
+									<label>City:</label>
+						
+									<select>
+										<option>Select</option>
+										<option>Pune</option>
+										<option>Mumbai</option>
+										<option>Nashik</option>
+										<option>Nagpur</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="DOB">Date of Birth:</label>
+						<input type="date" class="form-control" id="DOB"/>
+					</div>
+					
+					<div class="form-group">
+						<label for="contactno">Contact Number:</label>
+						<input type="text" class="form-control" id="contactno" placeholder="Enter Number"/>
+					</div>
+					
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" id="email" placeholder="@Enter Valid email"/>
+					</div>
+					
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-6">
+								<label for="password">Password:</label>
+								<input type="password" class="form-control" id="password" placeholder="Enter Password"/>
+							</div>
+							<div class="col-md-6">
+								<label for="password">Re-type Password:</label>
+								<input type="password" class="form-control" id="password" placeholder="Enter Passwordword"/>
+							</div>
+						</div>
+					</div>
+				
+					<div class="from-group">
+						<div class="text-center">
+							<input type="submit" class="btn btn-primary"/>
+							<input type="reset" class="btn btn-primary"/>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="panel-footer text-right">
+				<small>&copy; form</small>
+			</div>
+		<div>
+	</div>	
+</div>	
+</body>
+</html>
